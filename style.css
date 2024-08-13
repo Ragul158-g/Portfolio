@@ -206,19 +206,19 @@ span{
     }
     21%,
     40%{
-        content: "Web Developer";
+        content: "Mern Stack Developer";
     }
     41%,
     60%{
-        content: "UI Developer";
+        content: "React Developer";
     }
     61%,
     80%{
-        content: "Web Designer";
+        content: "Backend Developer";
     }
     81%,
     100%{
-        content: "Software Tester";
+        content: "Software Developer";
     }
 }
 @keyframes typing{
