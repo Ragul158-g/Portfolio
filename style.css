@@ -16,7 +16,7 @@
 }
 
 html{
-    font-size: 90%;
+    font-size: 70%;
     overflow-x: hidden;
 }
 .header{
@@ -246,17 +246,40 @@ span{
         width: calc(100% + 8px);
     }
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .timeline-item {
+    flex: 1;
+    padding: 20px;
+    border-radius: 25px;
+    color: black;
+    text-align: center;
+  }
+  
+  .timeline-point {
+    width: 20px;
+    height: 20px;
+    background-color: #00f0ff;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #00f0ff;
+  }
+  
 .heading{
     font-size: 8rem;
     text-align: center;
-    margin: 5rem;
+    margin: 15rem;
 }
 .education{
     padding: 100px 15px;
     background: var(--second-bg-color);
 }
 .education h2{
-    margin-bottom: 5rem;
+    margin-bottom: 15rem;
 }
 .timeline-items{
     max-width: 1200px;
@@ -269,15 +292,15 @@ span{
     content: "";
     position: absolute;
     width: 5px;
-    height: 100%;
+    height: 60%;
     background-color: var(--main-color);
     left: calc(50% - 1px);
 }
 .timeline-item{
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     width: 100px;
     position: relative;
-}
+}   
 .timeline-item:last-child{
     margin-bottom: 0;
 }
@@ -299,12 +322,6 @@ span{
     border-radius: 50%;
     top: 10px;
 }
-.timeline-date{
-    font-size: 20px;
-    font-weight: 800;
-    color: white;
-    margin: 6px 0 15px;
-}
 .timeline-content{
     background-color: var(--bg-color);
     border: 3px solid var(--main-color);
@@ -315,7 +332,6 @@ span{
     transition: 0.3s ease-in-out;
 }
 .timeline-content:hover{
-    transform: scale(1.05);
     box-shadow: 0 0 25px var(--main-color);
 }
 .timeline-content h3{
@@ -345,7 +361,7 @@ span{
     background: var(--bg-color);
     color: black;
 }
-.services h2{
+.services {
     margin-bottom: 5rem;
     color: white;
 }
